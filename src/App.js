@@ -1,18 +1,15 @@
 import React from 'react'
-import AboutComponent from './components/About/About';
-import Footer from './components/Footer/Footer';
-import HomeComponent  from './components/Home/Home';
-import PortifolioComponent from './components/Portifolio/Portifolio';
-import SkillsComponent from './components/Skills/Skills';
+import Login from './components/Login';
+import Register from './components/Register';
+// import ToDoList from './components/toDoApp/ToDoList';
+
 function App() {
 return(
 
     <div className='App'>
-        <HomeComponent/>
-        <AboutComponent/>
-        <SkillsComponent/>
-        <PortifolioComponent/>
-        <Footer/>
+            <Register/>
+            <Login/>
+            {/* <ToDoList/> */}
     </div>
 )
 }
